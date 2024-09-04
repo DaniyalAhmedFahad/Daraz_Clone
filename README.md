@@ -11,4 +11,3 @@ Welcome to the Daraz Clone project! This project is a simplified version of the 
 
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling and layout.
-- **JavaScript**: For interactive elements.
