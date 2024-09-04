@@ -9,8 +9,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto',
-        sans-serif;
     list-style: none;
     box-sizing: border-box;
 }
@@ -284,6 +282,7 @@ a {
 .slide-show-flex {
     margin-top: 120px;
 }
+
 .hp-mod-card {
     margin: 0 auto;
     width: 1188px;
@@ -294,6 +293,7 @@ a {
     padding-top: 24px;
     width: 1188px;
 }
+
 .hp-mod-card .hp-mod-card-header {
     background: 0 0;
     height: 38px;
@@ -306,6 +306,7 @@ a {
     flex-wrap: wrap;
     width: 100%;
 }
+
 .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .jfy-item {
     background: #fff;
     height: 100%;
@@ -319,23 +320,34 @@ a {
     color: #000;
     text-decoration: none;
 }
-.hp-mod-card-hover, .hp-mod-card-hover-v2 {
+
+.hp-mod-card-hover,
+.hp-mod-card-hover-v2 {
     cursor: pointer;
 }
+
 .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .jfy-item .image {
     height: 189px;
 }
-.img-container, .img-container .picture-wrapper>img, .img-container img {
+
+.img-container,
+.img-container .picture-wrapper>img,
+.img-container img {
     height: 100%;
     width: 100%;
 }
-.img-container ,.imc{
+
+.img-container,
+.imc {
     align-items: center;
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-.img-container, .img-container .picture-wrapper>img, .img-container img {
+
+.img-container,
+.img-container .picture-wrapper>img,
+.img-container img {
     height: 100%;
     width: 100%;
 }
@@ -347,11 +359,14 @@ a {
     max-width: 100%;
     width: auto;
 }
+
 .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .card-jfy-item-desc {
     background: #fff;
     padding: 4px 8px 12px;
 }
-.jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .card-jfy-title, .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .title {
+
+.jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .card-jfy-title,
+.jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .title {
     -webkit-box-orient: vertical;
     display: -webkit-box;
     font-size: 14px;
@@ -360,10 +375,12 @@ a {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .hp-mod-price {
     display: flex;
     margin-top: 4px;
 }
+
 .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .hp-mod-price-first-line {
     align-items: center;
     color: #f57224;
@@ -372,7 +389,9 @@ a {
     height: 22px;
     line-height: 22px;
 }
-.jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .hp-mod-price .currency, .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .hp-mod-price .price {
+
+.jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .hp-mod-price .currency,
+.jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .hp-mod-price .price {
     color: #f57224;
     font-size: 18px;
     height: 22px;
@@ -385,9 +404,11 @@ a {
     margin-top: 8px;
     position: relative;
 }
+
 .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .card-jfy-footer .card-jfy-ratings {
     position: relative;
 }
+
 .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .card-jfy-rating-layer.top-layer {
     overflow: hidden;
     position: absolute;
@@ -398,14 +419,17 @@ a {
 .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .card-jfy-rating-layer {
     display: inline-block;
 }
+
 .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .card-jfy-rating-layer {
     display: inline-block;
 }
+
 .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .card-jfy-rating-layer .rating {
     font-size: 11px;
     height: 11px;
     line-height: 11px;
 }
+
 .jfy-comp-container .hp-mod-card-content .jfy-card-load-more .load-more-button {
     border: 1px solid #1a9cb8;
     color: #1a9cb8;
@@ -419,39 +443,45 @@ a {
     text-transform: uppercase;
     width: 387px;
 }
+
 .pc-custom-link:hover {
     transform: scale(1.02);
     box-shadow: 1px 1px 20px #b3b3b3;
 
 }
+
 .pc-custom-link {
-    transition:transform 1s ;
-    transition:box-shadow 0.5s ;
+    transition: transform 1s;
+    transition: box-shadow 0.5s;
 }
+
 .new-desktop-footer {
     font-size: 12px;
     font-weight: 200;
     left: 0;
-    min-width: 1188px;
     padding: 0;
     position: absolute;
     width: 100%;
 }
+
 .footer-first {
     background-color: #f4f4f6;
     color: #fff;
     padding: 20px 0 25px;
 }
+
 .lzd-footer-inner {
     margin: 0 auto;
     overflow: hidden;
     width: 1188px;
 }
+
 .lzd-footer-width-25 {
     float: left;
     overflow: hidden;
     width: 25%;
 }
+
 .footer-first .footer-title {
     color: #0f136d;
     font-size: 16px;
@@ -459,15 +489,19 @@ a {
     line-height: 35px;
     margin: 0;
 }
+
 .footer-first .footer-list {
     margin: 0;
     padding: 0;
 }
 
-li, ol, ul {
+li,
+ol,
+ul {
     box-sizing: border-box;
     list-style: none;
 }
+
 .footer-first .footer-li {
     font-size: 12px;
     font-weight: 200;
@@ -475,14 +509,17 @@ li, ol, ul {
     list-style: none;
     color: #0f136d;
 }
+
 .lzd-footer-width-50 {
     float: left;
     overflow: hidden;
     width: 50%;
 }
+
 .footer-first .lzd-footer-app-downloads {
     margin-top: 25px;
 }
+
 .footer-first .lzd-footer-app-downloads .icon-logo-lazada-footer {
     background-size: cover;
     height: 42px;
@@ -492,27 +529,34 @@ li, ol, ul {
 .daraz-pc-theme-style .footer-first .daraz-footer-appIcon {
     background-image: url(//img.drz.lazcdn.com/g/tps/imgextra/i1/O1CN01Ie2YnK1JmZ1mL3fY5_!!6000000001071-2-tps-60-60.png);
     display: inline-block;
+    margin: 0px 5px;
 }
+
 .pull-left {
     float: left;
 }
+
 .footer-first .lzd-footer-app-downloads .lzd-app-download-text {
     padding: 0 15px;
 }
+
 .footer-first .lzd-footer-app-downloads .lzd-app-download-text .title {
     color: #f36f36;
     font-size: 16px;
     font-weight: 300;
 }
+
 .footer-first .lzd-footer-app-downloads .lzd-app-download-text .text {
     color: #0f136d;
     font-size: 14px;
     font-weight: 300;
     padding-top: 2px;
 }
+
 element.style {
     width: 290px;
 }
+
 .footer-first .lzd-footer-app-downloads .icon-appStore-footer {
     background-position: -190px -124px;
     height: 42px;
@@ -524,12 +568,14 @@ element.style {
     color: #888;
     text-decoration: none;
 }
+
 .footer-first .lzd-footer-app-downloads .icon-android-footer {
     background-position: -568px -374px;
     height: 43px;
     margin-left: 10px;
     width: 128px;
 }
+
 .footer-first .lzd-footer-app-downloads .icon-huawei-footer {
     background-color: transparent;
     background-image: url(https://img.lazcdn.com/g/tps/imgextra/i1/O1CN01brmkRW21eAmpV4slQ_!!6000000007009-2-tps-126-42.png);
@@ -553,21 +599,25 @@ element.style {
     margin: 10px 0 0 20px;
     width: 126px;
 }
+
 .footer-fourth {
     background-color: #fff;
     color: #606060;
     padding: 40px 0;
 }
+
 .lzd-footer-inner {
     margin: 0 auto;
     overflow: hidden;
     width: 1188px;
 }
+
 .lzd-footer-width-50 {
     float: left;
     overflow: hidden;
     width: 50%;
 }
+
 .footer-fourth .lzd-footer-title {
     color: #2a2a2a;
     font-size: 16px;
@@ -576,6 +626,180 @@ element.style {
     margin: 5px 10px 5px 0;
 }
 
+.slide-show-responsive img {
+    display: none;
+}
+
 .footer-first .clear {
     clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .main-container {
+        max-width: 600px;
+    }
+
+    .small__navbar {
+        display: none;
+    }
+
+    body,
+    html {
+        width: 360px;
+        overflow-x: hidden;
+    }
+
+    .jfy-comp-container {
+        width: 350px;
+        margin-left: 25px;
+    }
+
+    .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .jfy-item {
+        width: 150px;
+        border-radius: 15px;
+    }
+
+    .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .card-jfy-item-desc {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .jfy-comp-container .hp-mod-card-content .jfy-card-load-more .load-more-button {
+        width: 300px;
+        margin-right: 45px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 12px;
+    }
+
+    .jfy-comp-container .hp-mod-card-content .jfy-card-load-more {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .card-categories-comp-container .card-categories-ul {
+        flex-wrap: nowrap;
+        min-height: 0px;
+        background-color: transparent;
+        overflow-x: scroll;
+        width: 100%;
+    }
+
+    .card-categories-comp-container .card-categories-li {
+        width: 500px;
+        height: 150px;
+        padding: 5px 20px 5px 20px;
+        margin: 5px;
+    }
+
+    .hp-mod-card {
+        width: 340px;
+    }
+
+    .Categories {
+        font-size: 20px;
+    }
+
+    .slide-show-responsive img {
+        display: block;
+        margin-top: 90px;
+        width: 340px;
+        height: 150px;
+        border-radius: 15px;
+    }
+
+    .pc-custom-link:hover {
+        transform: scale(1);
+        box-shadow: 0px 0px 0px #ffffff;
+    }
+
+    .slide-show-responsive {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ri-shopping-cart-line {
+        margin-left: 150px;
+    }
+
+    .login__sell {
+        display: none;
+    }
+
+    .second__navbar img {
+        margin-left: 30px;
+    }
+
+    .second__navbar {
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .search__bar {
+        display: none;
+    }
+
+    .slideshow-bg {
+        background-color: #F5F5F5;
+    }
+
+    .second__navbar .search__bar {
+        width: 0px;
+        margin-right: 40px;
+        background-color: transparent;
+    }
+
+    .slide-show-flex {
+        display: none;
+    }
+
+    .search__bar i {
+        border-radius: 10px;
+    }
+
+    .new-desktop-footer {
+        width: 360px;
+    }
+
+    .slide-show-flex {
+        margin-top: 60px;
+    }
+
+    .lzd-footer-width-25 {
+        display: none;
+    }
+
+    .same__color {
+        width: 360px;
+        height: 75px;
+    }
+
+    .second-navbar__logo svg {
+        width: 10px;
+    }
+
+    input {
+        display: none;
+    }
+    .footer-first,.lzd-footer-inner{
+        width: 340px;
+    }
+    .lzd-footer-width-50{
+        width: 340px;
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .footer-box-1{
+       margin-bottom: 10px;
+    }
+     .daraz-pc-theme-style .footer-first .daraz-footer-appIcon {
+        margin: 0px 50px;
+    }
+    .right{
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
 }
