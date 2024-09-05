@@ -634,9 +634,9 @@ element.style {
     clear: both;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
     .main-container {
-        max-width: 600px;
+        max-width: 500px;
     }
 
     .small__navbar {
@@ -645,17 +645,17 @@ element.style {
 
     body,
     html {
-        width: 360px;
+        width: 500px;
         overflow-x: hidden;
     }
 
     .jfy-comp-container {
-        width: 350px;
-        margin-left: 25px;
+        width: 500px;
+        margin-left: 20px;
     }
 
     .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .jfy-item {
-        width: 150px;
+        width: 225px;
         border-radius: 15px;
     }
 
@@ -665,11 +665,11 @@ element.style {
     }
 
     .jfy-comp-container .hp-mod-card-content .jfy-card-load-more .load-more-button {
-        width: 300px;
+        width: 500px;
         margin-right: 45px;
         margin-bottom: 50px;
         margin-top: 50px;
-        margin-left: 12px;
+        margin-left: 10px;
     }
 
     .jfy-comp-container .hp-mod-card-content .jfy-card-load-more {
@@ -694,7 +694,7 @@ element.style {
     }
 
     .hp-mod-card {
-        width: 340px;
+        width: 500px;
     }
 
     .Categories {
@@ -704,7 +704,7 @@ element.style {
     .slide-show-responsive img {
         display: block;
         margin-top: 90px;
-        width: 340px;
+        width: 480px;
         height: 150px;
         border-radius: 15px;
     }
@@ -717,10 +717,6 @@ element.style {
     .slide-show-responsive {
         display: flex;
         justify-content: center;
-    }
-
-    .ri-shopping-cart-line {
-        margin-left: 150px;
     }
 
     .login__sell {
@@ -759,7 +755,7 @@ element.style {
     }
 
     .new-desktop-footer {
-        width: 360px;
+        width: 500px;
     }
 
     .slide-show-flex {
@@ -771,7 +767,7 @@ element.style {
     }
 
     .same__color {
-        width: 360px;
+        width: 500px;
         height: 75px;
     }
 
@@ -783,13 +779,13 @@ element.style {
         display: none;
     }
     .footer-first,.lzd-footer-inner{
-        width: 340px;
+        width: 500px;
     }
     .lzd-footer-width-50{
-        width: 340px;
+        width: 500px;
         display: flex;
         justify-content: center;
-        margin-left: 10px;
+        margin-left: 90px;
     }
     .footer-box-1{
        margin-bottom: 10px;
@@ -799,7 +795,7 @@ element.style {
     }
     .right{
         margin-top: 30px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
     
 }
